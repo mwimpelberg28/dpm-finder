@@ -175,3 +175,5 @@ cython_debug/
 
 
 metric_rates.txt
+
+.env
