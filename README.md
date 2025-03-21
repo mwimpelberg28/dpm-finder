@@ -21,6 +21,16 @@ The script does the following:
 3.  **Filters metrics** based on a DPM threshold (metrics with DPM > 1 by default).
 4.  **Writes results** to a text file named `metric_rates.txt`, listing metrics that exceed the threshold.
 
+## How To
+1.  ## Create .env with the following variables.  Please note the prometheus endpoint should not have anything after .net
+```bash
+PROMETHEUS_ENDPOINT=""
+PROMETHEUS_USERNAME=""
+PROMETHEUS_API_KEY=""
+```
+
+2. Install all libraries from requirements.txt
+
 ## Dependencies
 
 *   Python 3
